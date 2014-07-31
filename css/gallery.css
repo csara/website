@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*
+ * Copyright 2014 Christopher Sara
+ * 
+ */
+html,
+ body {
+    padding-top: 60px;
+    background-color: #222222;
+    color: #fff;
+}
+
+body {
+  padding-top: 70px;
+}
+footer {
+  padding: 30px 0;
+}
+ 
+ /* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 10px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+  /*background-color: #ffffff;*/
+}
+.navbar-collapse{
+  float:right;}
+  
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+a {
+    color: lightblue;
+}
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+.modal {
+	overflow: auto;
+	color: #333;
+}
+
+.jumbotron{
+	background-color: #141414;
+	color: #dfdfdf;
+	}
