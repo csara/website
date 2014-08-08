@@ -63,8 +63,8 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Unmanned Ground Vehcile (UGV)</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <h1>Unmanned Ground Vehicle (UGV)</h1>
+        <p>The UGV was my Electrical Engineering senior project at UC Riverside. I worked on a team of two other EE classmates. We were to research and develop components, hardware, and software throughout the creation of the UGV. The project also helped me gain experience with working on a team, leadership, project management, and the importance of life long learning in the engineering field.</p>
       </div>
 
       <div id="UGVslideshow" class="carousel slide" data-ride="carousel">
@@ -85,13 +85,32 @@
           </div>
         </div>
         <a class="left carousel-control" href="#UGVslideshow" role="button" data-slide="prev">
-          &raquo;
         </a>
         <a class="right carousel-control" href="#UGVslideshow" role="button" data-slide="next">
-          &raquo;
         </a>
       </div>
 
+	  <div class="page-header">
+        <h1>What is a UGV?</h1>
+      </div>
+            <p>A UGV is a vehicle that can be remotely operated by a user with information provided strictly by the vehicle's sensors. This project was to address the more basic components of a UGV. The main goals of our UGV were to</p>
+            <ul>
+              <li>Drive the vehicle wirelessly</li>
+              <li>Wirelessly transmit video and view the feed in real-time to control the vechile.</li>
+              <li>Display telemetry and video in an aethetically pleasing and efficient way. </li>
+            </ul>
+			<p> There were three main design considerations as well. The running time, range of the wireless transmission, and response time. It was to have: </p>
+			<ul>
+			  <li>A battery life of at least one hour</li>
+			  <li> A range greater than 100 ft.</li>
+			  <li> A response time of less than a second. </li>
+			 </ul>
+<h3>How to accomplish the goals</h3>
+	<h4>Goal 1</h4>
+		<p> The first goal was to create the circuitry and build the drivers to communicate wirelessly with the UGV. Constraints such as current and power draw needed to be considered- as well as many other issues. </p>
+	<h4>Goal 2</h4>
+		<p> The second goal was to have a camera attached to the top to see what the UGV sees while simultaneously displaying targets, displaying GPS long/lat, altitude, Angle of Attack, and PWM speed percentage. This was accomplished by using OpenCV, a wireless camera, and a USB video capture device on a laptop using Ubuntu. The camera is to be the eyes and ears of the UGV. This data was to be displayed clearly on the window.</p>
+	  
       <div class="page-header">
         <h1>Tables</h1>
       </div>
