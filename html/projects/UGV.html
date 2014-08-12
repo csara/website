@@ -72,16 +72,20 @@
           <li data-target="#UGVslideshow" data-slide-to="0" class="active"></li>
           <li data-target="#UGVslideshow" data-slide-to="1"></li>
           <li data-target="#UGVslideshow" data-slide-to="2"></li>
+		  <li data-target="#UGVslideshow" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
           <div class="item active">
-            <img data-src="holder.js/1140x500/auto/#777:#555/text:First slide" alt="First slide">
+            <img src="pics/UGV1.jpg" alt="UGV1">
           </div>
           <div class="item">
-            <img data-src="holder.js/1140x500/auto/#666:#444/text:Second slide" alt="Second slide">
+            <img src="pics/UGV2.jpg" alt="UGV2">
           </div>
-          <div class="item">
-            <img data-src="holder.js/1140x500/auto/#555:#333/text:Third slide" alt="Third slide">
+		  <div class="item">
+            <img src="pics/circletarget.jpg" alt="circletarget">
+          </div>
+		  <div class="item">
+            <img src="pics/UGV3.jpg" alt="UGV3">
           </div>
         </div>
         <a class="left carousel-control" href="#UGVslideshow" role="button" data-slide="prev">
@@ -110,9 +114,21 @@
 		<p> The first goal was to create the circuitry and build the drivers to communicate wirelessly with the UGV. Constraints such as current and power draw needed to be considered- as well as many other issues. </p>
 	<h4>Goal 2</h4>
 		<p> The second goal was to have a camera attached to the top to see what the UGV sees while simultaneously displaying targets, displaying GPS long/lat, altitude, Angle of Attack, and PWM speed percentage. This was accomplished by using OpenCV, a wireless camera, and a USB video capture device on a laptop using Ubuntu. The camera is to be the eyes and ears of the UGV. This data was to be displayed clearly on the window.</p>
+		
+	  <div class="page-header">
+        <h1>Videos</h1>
+      </div>
+	  <h3>UGV Tank Operation</h3>
+	  <div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="//www.youtube.com/embed/yhI8ZM7QyeA"></iframe>
+	  </div>
+	  <h3>Computer Window</h3>
+	  <div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="//www.youtube.com/embed/PtuQNqqrvMU"></iframe>
+	  </div>
 	  
       <div class="page-header">
-        <h1>Tables</h1>
+        <h1>Tools</h1>
       </div>
       <div class="row">
         <div class="col-md-6">
@@ -180,7 +196,9 @@ simple environment. </td>
             </tbody>
           </table>
         </div>
-		
+	<div class="page-header">
+        <h1>Bill of Materials</h1>
+      </div>
 	<div class="col-md-6">
           <table class="table table-striped">
             <thead>
@@ -238,10 +256,16 @@ simple environment. </td>
                 <td>Small PCB (Two in a Pack)</td>
                 <td>$4.99</td>
               </tr>
+			  <tr>
+                <td>TOTAL</td>
+                <td>$342.87</td>
+              </tr>
             </tbody>
           </table>
         </div>
-	  
+	  <div class="page-header">
+        <h1>Standards Documentation and Project Modules</h1>
+      </div>
 	  <div class="col-md-6">
           <table class="table table-striped">
             <thead>
@@ -275,7 +299,7 @@ simple environment. </td>
             </tbody>
           </table>
         </div>
-		
+	  <h3>Project Modules</h3>
 	  <div class="col-md-6">
           <table class="table table-striped">
             <thead>
@@ -339,13 +363,19 @@ simple environment. </td>
               </tr>
             </tbody>
           </table>
+		  <img src="pics/flow.png" class="img-thumbnail"  alt="flow">
         </div>
-	  
-	  
+	    
 		<!-- END OF UGV TABLES -->
+	
 
     </div> <!-- /container -->
-
+    
+	<!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Christopher Sara&middot; <a href="../aboutme.html">About</a> &middot; <a href="../contact.html">Contact</a></p>
+      </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
