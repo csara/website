@@ -16,6 +16,19 @@ body {
   z-index: 20;
 }
 
+#blog{
+	padding-bottom: 10px;
+	font-size:18px;
+	color: lightblue ;
+	line-height:20px;
+}
+#blog:hover{
+color:orange;
+text-decoration:none;
+}
+
+#blog:focus{text-decoration:none;}
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
